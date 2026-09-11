@@ -427,6 +427,18 @@ h2 i {
   line-height: 1.75;
 }
 
+.text-link {
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 148, 126, 0.75);
+  text-underline-offset: 0.18em;
+}
+
+.text-link:hover,
+.text-link:focus-visible {
+  color: #ff947e;
+}
+
 .button-light {
   color: var(--ink);
   background: var(--white);
@@ -442,6 +454,28 @@ h2 i {
   margin: 1.2rem 0 0;
   color: rgba(252, 252, 248, 0.5);
   font-size: 0.8rem;
+}
+
+.location-card {
+  margin-top: 2.25rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(252, 252, 248, 0.2);
+  color: rgba(252, 252, 248, 0.72);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.location-card p {
+  margin-bottom: 0;
+}
+
+.location-card .contact-meta {
+  margin-top: 0.9rem;
+}
+
+.location-label {
+  color: var(--white);
+  font-weight: 700;
 }
 
 .site-footer {

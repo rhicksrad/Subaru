@@ -14,4 +14,4 @@ Then open <http://localhost:4173>.
 
 ## Customize
 
-The first pass uses working copy for the practice name, services, and contact address. Update the visible content and `mailto:` link in `dist/index.html`, then push to `main` to redeploy through GitHub Pages.
+Update the visible content in `dist/index.html` and the visual system in `dist/styles.css`, then push to `main` to redeploy through GitHub Pages. The current page reflects Subaru Tanaka's public profile and appointment information at Wagner Chiropractic Center.
